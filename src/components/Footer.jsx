@@ -8,7 +8,7 @@ const Footer = () => (
     <Stack gap="40px" sx={{ alignItems: 'center' }} flexWrap="wrap" px="40px" pt="24px">
       <img src={Logo} alt="logo" style={{ width: '200px', height: '41px' }} />
     </Stack>
-    <Typography variant="h5" sx={{ fontSize: { lg: '28px', xs: '20px' } }} mt="41px" textAlign="center" pb="40px">Made with ❤️ by <a href="https://hamza-elabdi.vercel.app/" target="_blank" style={{ textDecoration: "none", color: "#3A1212" }}>Sonics</a></Typography>
+    <Typography variant="h5" sx={{ fontSize: { lg: '28px', xs: '20px' } }} mt="41px" textAlign="center" pb="40px">Made with ❤️ by <a href="https://sonics.vercel.app/" target="_blank" style={{ textDecoration: "none", color: "#3A1212" }}>Sonics</a></Typography>
   </Box>
 );
 
